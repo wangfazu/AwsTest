@@ -1,0 +1,54 @@
+PODS:
+  - AWSAuthCore (2.6.14):
+    - AWSCore (= 2.6.14)
+  - AWSAuthUI (2.6.14):
+    - AWSAuthCore (= 2.6.14)
+    - AWSCore (= 2.6.14)
+  - AWSCognitoIdentityProvider (2.6.14):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.14)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.14)
+  - AWSDynamoDB (2.6.14):
+    - AWSCore (= 2.6.14)
+  - AWSPinpoint (2.6.14):
+    - AWSCore (= 2.6.14)
+  - AWSUserPoolsSignIn (2.6.14):
+    - AWSAuthCore (= 2.6.14)
+    - AWSCognitoIdentityProvider (= 2.6.14)
+  - Kingfisher (4.6.4)
+
+DEPENDENCIES:
+  - AWSAuthCore
+  - AWSAuthUI
+  - AWSDynamoDB
+  - AWSPinpoint
+  - AWSUserPoolsSignIn
+  - Kingfisher
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AWSAuthCore
+    - AWSAuthUI
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSDynamoDB
+    - AWSPinpoint
+    - AWSUserPoolsSignIn
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  AWSAuthCore: b13b0cb87abac6d44c52d8b965bbdb4cd0842017
+  AWSAuthUI: 6c4b7eb77ff6f6f96a2a8661dc57cc840234dfbb
+  AWSCognitoIdentityProvider: 5055dd6a04040582191b0f3a80723e67fc55eaf4
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 8c883c2623d314dd82cca3809527784e1d1a02e5
+  AWSDynamoDB: ecbc36963c5dd62354d8e844312a3a45f59046b9
+  AWSPinpoint: d9367a440d40a3a0b3e371fe3c906249a7017a44
+  AWSUserPoolsSignIn: 8c52ad458e6e6fbf385a41a6b5d35a99c707db37
+  Kingfisher: 68498a706e46c2a050b0c9572f100e5db407f6e0
+
+PODFILE CHECKSUM: d303375a2ab507c634754033c9244622f657e5eb
+
+COCOAPODS: 1.5.0

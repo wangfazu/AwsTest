@@ -1,0 +1,51 @@
+{
+    "UserAgent": "MobileHub/1.0",
+    "Version": "1.0",
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-east-1:89ea084b-c567-4f00-a62c-f1f9c77be551",
+                "Region": "us-east-1"
+            }
+        }
+    },
+    "IdentityManager": {
+        "Default": {}
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-east-1_cG1kamCKm",
+            "AppClientId": "1hv0afgg141gcv05mkjkisrl4q",
+            "AppClientSecret": "10s4pb2gb6cpqflb455qh1kv2imknk10qt92mr0djpbukucdcjpt",
+            "Region": "us-east-1"
+        }
+    },
+    "S3TransferUtility": {
+        "Default": {
+            "Bucket": "eldercare-userfiles-mobilehub-1443786998",
+            "Region": "us-east-1"
+        }
+    },
+    "DynamoDBObjectMapper": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointAnalytics": {
+        "Default": {
+            "AppId": "21bef88f3d224068baad5f023f12306e",
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointTargeting": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    },
+    "UserFileManager": {
+        "Default": {
+            "Bucket": "eldercare-userfiles-mobilehub-1443786998",
+            "Region": "us-east-1"
+        }
+    }
+}

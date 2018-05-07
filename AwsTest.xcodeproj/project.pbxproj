@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D40C6CFE896E8989A90EB21 /* Pods_AwsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712BE2A6A881AD515A3BBEB7 /* Pods_AwsTest.framework */; };
+		215DCADC2071F9F5004850AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215DCADB2071F9F5004850AA /* AppDelegate.swift */; };
+		215DCADE2071F9F5004850AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215DCADD2071F9F5004850AA /* ViewController.swift */; };
+		215DCAE12071F9F5004850AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215DCADF2071F9F5004850AA /* Main.storyboard */; };
+		215DCAE32071F9F5004850AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215DCAE22071F9F5004850AA /* Assets.xcassets */; };
+		215DCAE62071F9F5004850AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215DCAE42071F9F5004850AA /* LaunchScreen.storyboard */; };
+		21787DBD2072286E00AA9CEF /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 21787DBC2072286E00AA9CEF /* awsconfiguration.json */; };
+		218EF7B02073809600916C7B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218EF7AF2073809600916C7B /* LoginViewController.swift */; };
+		9760A92D209EF77B0069C825 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9760A924209EF77A0069C825 /* Notes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		215DCAD82071F9F5004850AA /* AwsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		215DCADB2071F9F5004850AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		215DCADD2071F9F5004850AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		215DCAE02071F9F5004850AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		215DCAE22071F9F5004850AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		215DCAE52071F9F5004850AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		215DCAE72071F9F5004850AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21787DBC2072286E00AA9CEF /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		218EF7AF2073809600916C7B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5D2DE8D615F2FE6C5A712021 /* Pods-AwsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwsTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwsTest/Pods-AwsTest.release.xcconfig"; sourceTree = "<group>"; };
+		712BE2A6A881AD515A3BBEB7 /* Pods_AwsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9760A924209EF77A0069C825 /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		9760A925209EF77A0069C825 /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
+		C49376AB483062DB936AAF41 /* Pods-AwsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwsTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwsTest/Pods-AwsTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		215DCAD52071F9F5004850AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D40C6CFE896E8989A90EB21 /* Pods_AwsTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C5929E063430237B73EAE23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				712BE2A6A881AD515A3BBEB7 /* Pods_AwsTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		215DCACF2071F9F4004850AA = {
+			isa = PBXGroup;
+			children = (
+				215DCADA2071F9F5004850AA /* AwsTest */,
+				215DCAD92071F9F5004850AA /* Products */,
+				B00F0B2204DD362578D3AAA7 /* Pods */,
+				0C5929E063430237B73EAE23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		215DCAD92071F9F5004850AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				215DCAD82071F9F5004850AA /* AwsTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		215DCADA2071F9F5004850AA /* AwsTest */ = {
+			isa = PBXGroup;
+			children = (
+				9760A921209EF77A0069C825 /* AmazonAws */,
+				215DCADB2071F9F5004850AA /* AppDelegate.swift */,
+				215DCADD2071F9F5004850AA /* ViewController.swift */,
+				218EF7AE2073807600916C7B /* UserLogin */,
+				215DCADF2071F9F5004850AA /* Main.storyboard */,
+				215DCAE22071F9F5004850AA /* Assets.xcassets */,
+				215DCAE42071F9F5004850AA /* LaunchScreen.storyboard */,
+				215DCAE72071F9F5004850AA /* Info.plist */,
+				21787DBC2072286E00AA9CEF /* awsconfiguration.json */,
+			);
+			path = AwsTest;
+			sourceTree = "<group>";
+		};
+		218EF7AE2073807600916C7B /* UserLogin */ = {
+			isa = PBXGroup;
+			children = (
+				218EF7AF2073809600916C7B /* LoginViewController.swift */,
+			);
+			name = UserLogin;
+			sourceTree = "<group>";
+		};
+		9760A921209EF77A0069C825 /* AmazonAws */ = {
+			isa = PBXGroup;
+			children = (
+				9760A922209EF77A0069C825 /* Models */,
+				9760A925209EF77A0069C825 /* Bridging_Header.h */,
+			);
+			path = AmazonAws;
+			sourceTree = "<group>";
+		};
+		9760A922209EF77A0069C825 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9760A923209EF77A0069C825 /* NoSQL */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9760A923209EF77A0069C825 /* NoSQL */ = {
+			isa = PBXGroup;
+			children = (
+				9760A924209EF77A0069C825 /* Notes.swift */,
+			);
+			path = NoSQL;
+			sourceTree = "<group>";
+		};
+		B00F0B2204DD362578D3AAA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C49376AB483062DB936AAF41 /* Pods-AwsTest.debug.xcconfig */,
+				5D2DE8D615F2FE6C5A712021 /* Pods-AwsTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		215DCAD72071F9F5004850AA /* AwsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215DCAEA2071F9F5004850AA /* Build configuration list for PBXNativeTarget "AwsTest" */;
+			buildPhases = (
+				B91175AADCDCD65AF661C944 /* [CP] Check Pods Manifest.lock */,
+				215DCAD42071F9F5004850AA /* Sources */,
+				215DCAD52071F9F5004850AA /* Frameworks */,
+				215DCAD62071F9F5004850AA /* Resources */,
+				3D20138B1D01CD0B8EA33B0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwsTest;
+			productName = AwsTest;
+			productReference = 215DCAD82071F9F5004850AA /* AwsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		215DCAD02071F9F4004850AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mapollo;
+				TargetAttributes = {
+					215DCAD72071F9F5004850AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 215DCAD32071F9F4004850AA /* Build configuration list for PBXProject "AwsTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 215DCACF2071F9F4004850AA;
+			productRefGroup = 215DCAD92071F9F5004850AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				215DCAD72071F9F5004850AA /* AwsTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		215DCAD62071F9F5004850AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21787DBD2072286E00AA9CEF /* awsconfiguration.json in Resources */,
+				215DCAE62071F9F5004850AA /* LaunchScreen.storyboard in Resources */,
+				215DCAE32071F9F5004850AA /* Assets.xcassets in Resources */,
+				215DCAE12071F9F5004850AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D20138B1D01CD0B8EA33B0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AwsTest/Pods-AwsTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwsTest/Pods-AwsTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91175AADCDCD65AF661C944 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AwsTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		215DCAD42071F9F5004850AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218EF7B02073809600916C7B /* LoginViewController.swift in Sources */,
+				215DCADE2071F9F5004850AA /* ViewController.swift in Sources */,
+				215DCADC2071F9F5004850AA /* AppDelegate.swift in Sources */,
+				9760A92D209EF77B0069C825 /* Notes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		215DCADF2071F9F5004850AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				215DCAE02071F9F5004850AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		215DCAE42071F9F5004850AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				215DCAE52071F9F5004850AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		215DCAE82071F9F5004850AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		215DCAE92071F9F5004850AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		215DCAEB2071F9F5004850AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49376AB483062DB936AAF41 /* Pods-AwsTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J7XRPA7AU;
+				INFOPLIST_FILE = AwsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangfazu.AwsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		215DCAEC2071F9F5004850AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2DE8D615F2FE6C5A712021 /* Pods-AwsTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J7XRPA7AU;
+				INFOPLIST_FILE = AwsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangfazu.AwsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		215DCAD32071F9F4004850AA /* Build configuration list for PBXProject "AwsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215DCAE82071F9F5004850AA /* Debug */,
+				215DCAE92071F9F5004850AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215DCAEA2071F9F5004850AA /* Build configuration list for PBXNativeTarget "AwsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215DCAEB2071F9F5004850AA /* Debug */,
+				215DCAEC2071F9F5004850AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 215DCAD02071F9F4004850AA /* Project object */;
+}
